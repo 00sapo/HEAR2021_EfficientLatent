@@ -18,10 +18,10 @@ setuptools.setup(
         "librosa",
         "torch",
         "torchaudio",
-        "numpy==1.19.5",
+        "numpy>=1.19.5",
         "einops",
-        "efficientnet_pytorch==0.7.1",
-        "numba==0.48",
+        "efficientnet_pytorch>=0.7.1",
+        "numba>=0.48",
     ],
     classifiers=[
         'Intended Audience :: Science/Research',
